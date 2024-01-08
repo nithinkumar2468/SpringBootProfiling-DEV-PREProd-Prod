@@ -17,7 +17,6 @@ public class MyController {
 	public String getMessage()
 	{
 		return "Hi "+msg;
-		
 	}
 	@Scheduled(fixedRate=1000)
 	public void displaytask(){
